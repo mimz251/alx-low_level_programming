@@ -16,8 +16,8 @@ int main(void)
 
 	for (q = p + 1; q <= 98; q++)
 	{
-	putchar((p / 30) + '0');
-	putchar((p % 30) + '0');
+	putchar((p / 10) + '0');
+	putchar((p % 10) + '0');
 	putchar(' ');
 	putchar((q / 10) + '0');
 	putchar((q % 10) + '0');
