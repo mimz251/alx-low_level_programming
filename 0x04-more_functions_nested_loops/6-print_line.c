@@ -1,22 +1,17 @@
 #include "main.h"
 
 /**
- * print_line - draws a straight line according to parameter
- * @n: The number of lines to draw
+ * print_line - Function that prints a straight line
+ * @n: function parameters
  * Return: nothing
  */
 void print_line(int n)
 {
-	int x;
+	int i;
 
-	if (n <= 0)
+	for (i = 0; i < n; i++)
 	{
-	_putchar('\n');
-	}
-	else
-	{
-	for (x = 0; x < n; x++)
+		_putchar('_');
 	}
 	_putchar('\n');
-	}
 }
