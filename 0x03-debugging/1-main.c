@@ -1,20 +1,24 @@
-#include "main.h"
 #include <stdio.h>
 
 /**
- * main - check the code
- * Return: Always 0,
- *
- */
+* main - causes an infinite loop
+* Return: 0
+*/
+
 int main(void)
 {
-	int a;
-	int b;
+        int i;
 
-		a = 98;
-		b = 42;
-		printf("a=%d, b=%d\n", a, b);
-		swap_int(&a, &b);
-		printf("a=%d, b=%d\n", a, b);
-		return (0);
+        printf("Infinite loop incoming :(\n");
+
+        i = 0;
+
+       /* while (i < 10)*/
+        /*{*/
+               /* putchar(i);*/
+       /* }*/
+
+        printf("Infinite loop avoided! \\o/\n");
+
+        return (0);
 }
