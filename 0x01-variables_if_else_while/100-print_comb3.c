@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- *main - entry point
+ *main - Write a program that prints all possible different combinations of two digits.
  *Return: 0 (Success)
  */
 

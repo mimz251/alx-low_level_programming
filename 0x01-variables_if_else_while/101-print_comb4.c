@@ -3,7 +3,9 @@
 #include <time.h>
 
 /**
- *main - entry point
+ *main - Write a program that prints all possible different combinations of three digits.
+
+Numbers must be separated by ,, followed by a space.
  *Return: 0 (Success)
  */
 
