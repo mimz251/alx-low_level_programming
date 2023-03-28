@@ -4,6 +4,7 @@
  *print_array - function that prints n elements of an array of integers
  *@n:number to be printed
  *@a:array
+ *Return: void
  */
 void print_array(int *a, int n)
 {
@@ -18,7 +19,7 @@ void print_array(int *a, int n)
 	{
 	printf(", ");
 	}
-	{
+	
 	printf("\n");
-	}
+	
 }
